@@ -1,0 +1,116 @@
+.intro{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin:0 auto;
+    padding: 150px 0 200px 0;
+    width: 90%;
+    max-width: 1100px;
+}
+
+.intro__image {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.ashImage {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 10%;
+}
+
+.intro__desc {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction:column;
+    justify-content: center;
+    width:650px;
+    margin-left:30px;
+}
+
+.intro__msg {
+    color: #18babd;
+    font-size: 1.2rem;
+    word-spacing: 0.3em;
+    margin: 10px 0;
+}
+
+.intro__head {
+    color:#e9e9f8;
+    font-size: 3rem;
+    margin:10px 0;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.intro__text {
+    margin: 0;
+    font-size: 1.7rem;
+    color:#e9e9f8;
+    font-weight: 600;
+}
+
+.intro__aboutLink {
+    color:#18babd;
+    border: 2px solid #046466;
+    border-radius:4px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-decoration: none;
+    padding:10px 15px;
+    max-width:170px;
+    text-align: center;
+    display: inline-block;
+    margin: 50px 0 20px 0;
+    transition: 0.3s;
+}
+.intro__aboutLink:hover{
+    background: rgba(8, 236, 179, 0.1);
+}
+
+
+@media screen and (max-width :1100px) {
+    .intro {
+        grid-template-columns:100%;
+        padding: 50px 0 100px 0;
+    }
+    .intro__image {
+        margin: 0 auto;
+        order: 2;
+    }
+    .intro__desc {
+        box-sizing: border-box;
+        width: 100%;
+        order: 1;
+    }
+ }
+ @media screen and (max-width :600px) {
+     .intro__image {
+         width: 290px;
+         height: 290px;
+         margin: 50px auto 0 auto;
+     }
+     
+     .ashImage {
+        width: 240px;
+        height: 240px;
+    }
+     .intro__desc {
+       margin:0;
+     }
+     .intro__head {
+         font-size: 2.4rem;
+     } 
+     .intro__text {
+         font-size: 1.5rem;
+     } 
+     .intro__aboutLink  {
+         font-size: 1.2rem;
+     }
+  }
