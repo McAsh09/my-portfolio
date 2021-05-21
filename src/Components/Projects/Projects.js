@@ -19,8 +19,8 @@ function Projects(){
               <ProjectComps title="Netflix Clone" 
               desc="A netflix clone created by using React and taking the use of API from TMDB and hosting the web app by using firebase"
               langs={['React','Redux','Firebase']} 
-              liveLink="https://github.com/McAsh09"
-              githubLink="https://github.com/McAsh09"
+              liveLink="https://netflix-clone1011.netlify.app/"
+              githubLink="https://github.com/McAsh09/Netflix-clone"
               />
 
             {/* To-Do App */}
