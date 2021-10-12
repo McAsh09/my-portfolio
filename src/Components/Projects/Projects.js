@@ -15,28 +15,47 @@ function Projects(){
             
             <div className="projects__projectCont">
                 
-            {/* Netflix clone project */}
-              <ProjectComps title="Netflix Clone" 
-              desc="A netflix clone created by using React and taking the use of API from TMDB and hosting the web app by using firebase"
-              langs={['React','Redux','Firebase']} 
-              liveLink="https://netflix-clone1011.netlify.app/"
-              githubLink="https://github.com/McAsh09/Netflix-clone"
+            {/* MobiVax Project */}
+              <ProjectComps title="MobiVax" 
+              desc="A web app that targets vaccination of elderly and specially abled"
+              langs={['ReactJs','Redux']} 
+              liveLink="https://mobivax.netlify.app/"
+              githubLink="https://github.com/McAsh09/error404_fullstack_hack21"
               />
 
-            {/* To-Do App */}
-            <ProjectComps title="To-Do App"
-             desc="A basic to-do app created using JS with minimal HTML and CSS"
-             langs={['Javascript']}
-             liveLink="https://dotodaynow.netlify.app/"
-             githubLink="https://github.com/McAsh09/to-do-list" />
+            {/* Hobby Projects */}
+            <ProjectComps title="Hobby Projects"
+             desc="A web app that allow users to add their hobby projects, users can edit their projects and can also delete them if they wish"
+             langs={['ReactJs','Redux']}
+             liveLink="https://my-hobby-projects.netlify.app/"
+             githubLink="https://github.com/McAsh09/hobby-projects" />
 
              
-            {/* CSS Background Generator */}
-            <ProjectComps title="CSS Background Generator"
-             desc="A web app designed for users to generate a background to their liking and also copy its code along with it"
-             langs={['Javascript']}
-             liveLink="https://css-gen.netlify.app/"
-             githubLink="https://github.com/McAsh09/CSS-Background-Generator"
+            {/* To-Do List */}
+            <ProjectComps title="To-Do List"
+             desc="A web app that allows users to create their daily tasks and delete them
+             when the task is done"
+             langs={['Nodejs','ejs','mongoDB']}
+             liveLink="https://shrouded-mesa-70728.herokuapp.com/"
+             githubLink="https://github.com/McAsh09/todo-list"
+             />
+
+
+             {/* Drum Kit */}
+            <ProjectComps title="Drum Kit"
+             desc="Made for the purpose of adding drum rolls along with having fun while
+             doing so"
+             langs={['VanillaJS']}
+             liveLink="https://mcash09.github.io/drum-kit/"
+             githubLink="https://github.com/McAsh09/drum-kit"
+             />
+
+             {/* Simon Game */}
+            <ProjectComps title="Simon Game"
+             desc="Implemented an electronic game of memory skill using VanillaJs and jQuery an intuitive game that is easy to learn but hard to master"
+             langs={['VanillaJS', 'jQuery']}
+             liveLink="https://mcash09.github.io/simon-game/"
+             githubLink="https://github.com/McAsh09/simon-game"
              />
 
              </div>
